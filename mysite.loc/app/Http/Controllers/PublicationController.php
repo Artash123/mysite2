@@ -15,4 +15,7 @@ class PublicationController extends Controller
     public function publication(){
         return view('Publications/publication');
     }
+    public function delete(){
+        return view('Publications/publication');
+    }
 }
